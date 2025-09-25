@@ -118,7 +118,7 @@ ul li span:hover{
 
 @media screen and (max-width: 768px) {
   .both{
-    width: 100%;
+    width: 82%;
   }
   #container{
     width: 95%;
@@ -133,5 +133,15 @@ ul li span:hover{
     margin: auto;
       margin-top: 4em;
     justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .both{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 360px) {
+    .both{
+    width: 100%;
   }
 }
